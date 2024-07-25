@@ -1,0 +1,76 @@
+gunData.type = "DMR"
+
+gunData.suppression = 2
+
+gunData.shelloffset = cf(0.2, -0.4, -0.3)*angles(0*deg , 0*deg, 0*deg)
+
+gunData.firesoundid = "rbxassetid://16075144150"
+gunData.firepitch = 1.5
+gunData.firevolume = 1
+
+gunData.hideflash = true
+gunData.hideminimap = true
+gunData.hiderange = 0
+
+gunData.magsize = 15
+gunData.sparerounds = 150
+gunData.chamber = 1
+
+gunData.firerate = {1080, 1080}
+gunData.firemodes = {1, true}
+
+gunData.variablefirerate = true
+
+gunData.crosssize = 30
+gunData.crossexpansion = 350
+gunData.crossspeed = 20
+gunData.crossdamper = 0.8
+
+gunData.hipfirespread = 0.14
+gunData.hipfirestability = 0.85
+gunData.hipfirespreadrecover = 9
+
+gunData.damageGraph = {
+	{distance = 0; damage = 20};
+	{distance = 60; damage = 20};
+	{distance = 200; damage = 15};
+	{distance = 400; damage = 12};
+}
+
+gunData.multhead = 2.5
+gunData.multtorso = 1.5
+gunData.bulletspeed = 1120
+gunData.penetrationdepth = 0.5
+
+gunData.aimwalkspeedmult = 0.6
+gunData.walkspeed = 14.5
+gunData.zoom = 2.5
+
+gunData.mainoffset = cf(0.7, -0.8, -1.3)*angles(0*deg , 0*deg, 0*deg)
+gunData.aimoffset = cf(-0.7, 0.29, 0)*angles(0*deg , 0*deg, 0*deg)
+gunData.sprintoffset = cf(-0.67, -0.18, 0.2)*angles(-20*deg , 35*deg, 50*deg)
+gunData.equipoffset = cf(0.2, -0.9, 0.4)*angles(-43*deg , 52*deg, 36*deg)
+gunData.proneoffset = cf(0.05, 0.1, 0.1)*angles(0*deg , 0*deg, 0*deg)
+
+gunData.larmoffset = cf(-0.5, -0.4, -0.4)*angles(115*deg , -15*deg, 25*deg)
+gunData.larmaimoffset = cf(-0.32, -0.4, -0.41)*angles(103*deg , -1*deg, 17*deg)
+gunData.larmsprintoffset = cf(-0.6, -0.25, -0.3)*angles(110*deg , -15*deg, 35*deg)
+gunData.larmequip = cf(-0.2, -0.3, 0.4)*angles(90*deg , 0*deg, 10*deg)
+
+gunData.rarmoffset = cf(0.1, -0.3, 1)*angles(100*deg , 0*deg, -5*deg)
+gunData.rarmaimoffset = cf(0.2, -0.4, 0.6)*angles(103*deg , 0*deg, -10*deg)
+gunData.rarmsprintoffset = cf(-0.05, -0.3, 0.9)*angles(100*deg , -1*deg, 4*deg)
+gunData.rarmequip = cf(0.1, -0.3, 0.8)*angles(90*deg , 0*deg, 0*deg)
+
+gunData.boltoffset = cf(-0.5, 0, 0)*angles(0*deg , 0*deg, 0*deg)
+gunData.bolttime = 0.06315789473684211
+
+gunData.aimspeed = 15
+gunData.unaimspeed = 7.5
+gunData.sprintspeed = 7
+gunData.unsprintspeed = 16
+gunData.magnifyspeed = 12
+gunData.unmagnifyspeed = 15
+gunData.equipspeed = 14
+
+gunData.ammotype = ".22 Long Rifle"

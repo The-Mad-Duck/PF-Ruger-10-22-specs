@@ -1,0 +1,49 @@
+tacticalreload = {
+	timescale = 0.5;
+	{
+		{part = "Trigger"; c1 = cf(0.03, 0, -0.11)*angles(32*deg , -7*deg, -7*deg); t = 1.2; eq = "smooth";};
+		{part = "larm"; c1 = cf(-0.87, -0.84, 1.73)*angles(60*deg , -11*deg, 3*deg); t = 0.6; eq = "smooth";};
+		{part = "Mag"; clone = "dropmag"; transparency = 1; c1 = cf(-0.69, -1.09, 0.8)*angles(0*deg , 90*deg, 0*deg); t = 0.8; eq = "smooth";};
+		{part = "dropmag"; transparency = 0;};
+		delay = 0.8;
+	};{
+		{part = "Trigger"; c1 = cf(0.05, 0.01, -0.13)*angles(23*deg , -4*deg, -14*deg); t = 1.2; eq = "decelerate";};
+		{part = "larm"; c1 = cf(-0.46, -1.15, 0.65)*angles(92*deg , -16*deg, 18*deg); t = 0.5; eq = "smooth";};
+		{part = "Mag"; transparency = 0; c1 = cf(0, -0.6, -0.22)*angles(-10*deg , 90*deg, 0*deg); t = 0.5; eq = "smooth";};
+		delay = 0.6;
+	};{
+		{part = "Trigger"; c1 = cf(0.19, 0.06, -0.15)*angles(36*deg , -26*deg, -21*deg); t = 1; eq = {0, 4, 0.5, 0.3};};
+		delay = 0.2;
+	};{
+		{part = "Flame"; sound = true; soundid = "rbxassetid://16075134826"; p = 1; v = 1; tp = 0;};
+		delay = 0.1;
+	};{
+		{part = "larm"; c1 = cf(-0.84, -1.46, 0.7)*angles(39*deg , -35*deg, -8*deg); t = 0.2; eq = "decelerate";};
+		{part = "Mag"; c1 = cf(-0.6, -1.92, -0.32)*angles(50*deg , 70*deg, -90*deg); t = 0.2; eq = "decelerate";};
+		{part = "dropmag"; c1 = cf(0, -0.63, -2)*angles(-31*deg , 0*deg, 180*deg); t = 0.06; eq = {0, 0, 1, 0.3};};
+		delay = 0.05;
+	};{
+		{part = "dropmag"; drop = true; transparency = 0;};
+		delay = 0.05;
+	};{
+		{part = "Trigger"; c1 = cf(0.07, 0.02, -0.22)*angles(37*deg , -16*deg, -9*deg); t = 1; eq = "smooth";};
+		delay = 0.1;
+	};{
+		{part = "larm"; c1 = cf(-0.3, -0.9, 0.25)*angles(97*deg , -16*deg, 6*deg); t = 0.5; eq = "accelerate";};
+		{part = "Mag"; c1 = cf(0, -0.35, -0.55)*angles(10*deg , 90*deg, 0*deg); t = 0.5; eq = "accelerate";};
+		delay = 0.5;
+	};{
+		{part = "Flame"; sound = true; soundid = "rbxassetid://16075134942"; p = 1; v = 1; tp = 0;};
+		delay = 0.1;
+	};{
+		{part = "Trigger"; c1 = cf(0.22, 0.05, -0.1)*angles(40*deg , -10*deg, -18*deg); t = 0.6; eq = {0, 1.2, 0.4, -0.2};};
+		delay = 0.4;
+	};{
+		{part = "larm"; c1 = cf(-0.3, -0.7, 0.35)*angles(97*deg , -16*deg, 6*deg); t = 0.2; eq = "decelerate";};
+		{part = "Mag"; c1 = "base"; t = 0.2; eq = "decelerate";};
+		delay = 0.1;
+	};{
+		{part = "Trigger"; c1 = cf(0.4, 0.15, 0)*angles(50*deg , -25*deg, -18*deg); t = 0.8; eq = {0, 4, 0.65, 0.2};};
+		delay = 0.5;
+	};
+};
